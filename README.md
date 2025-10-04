@@ -1,4 +1,4 @@
-# 🌌 ExoClass: AI-Powered Exoplanet Classification  
+# 🌌 ExoNet: AI-Powered Exoplanet Classification  
 
 ### 🚀 Challenge: *A World Away – Hunting for Exoplanets with AI*  
 Developed for the **NASA Space Apps Challenge 2025**
