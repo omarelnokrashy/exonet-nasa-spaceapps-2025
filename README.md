@@ -107,7 +107,6 @@ This dataset directly inspired the project, enabling AI-driven analysis of **rea
 - **AI Assistance in Documentation:**  
   **OpenAI GPT-5** used for documentation structuring and grammar refinement — all content reviewed by team members.  
 
-> ⚠️ No NASA logos, mission identifiers, or official branding were used or generated with AI tools.
 
 ---
 
