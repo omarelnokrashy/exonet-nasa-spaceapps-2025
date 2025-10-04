@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom cosmic theme overrides */
+:root{
+  --nebula-overlay: rgba(10,12,20,0.65);
+  --glow: 0 8px 30px rgba(99,102,241,0.12);
+}
+
+/* subtle vignette + glow */
+body {
+  background: linear-gradient(180deg, #0b1020 0%, rgba(3,7,18,1) 60%, #000 100%);
+  color: #e6eef8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Cosmic background helper class used by App */
+.cosmic-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  pointer-events: none;
+  background-image: radial-gradient(ellipse at 10% 10%, rgba(99,102,241,0.06) 0%, transparent 20%),
+                    radial-gradient(ellipse at 90% 80%, rgba(168,85,247,0.05) 0%, transparent 15%),
+                    url('/cosmic-nebula-1.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.28;
+  mix-blend-mode: screen;
+}
+
+/* glowing buttons */
+.btn-glow {
+  box-shadow: 0 6px 30px rgba(99,102,241,0.12);
+}
+
+/* subtle glass */
+.glass {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  backdrop-filter: blur(6px);
+}
+
+/* accessible focus */
+:focus {
+  outline: 2px solid rgba(99,102,241,0.22);
+  outline-offset: 2px;
+}
